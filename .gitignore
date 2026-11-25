@@ -1,0 +1,10 @@
+node_modules
+dist
+.vercel
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+# Exports csTimer personnels : jamais dans le repo
+cstimer_*.txt

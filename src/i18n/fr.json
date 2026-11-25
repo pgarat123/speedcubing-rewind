@@ -1,0 +1,9 @@
+{
+  "home": {
+    "title": "Ton année {{year}} en speedcubing.",
+    "lead": "Tes compétitions WCA et tes sessions csTimer, racontées en une story à partager.",
+    "login": "Se connecter avec la WCA",
+    "noWca": "Continuer sans compte WCA",
+    "privacy": "Ton export csTimer ne quitte jamais ton navigateur."
+  }
+}

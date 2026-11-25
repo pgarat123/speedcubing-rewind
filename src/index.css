@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Direction "Sticker Night" (canvas design du 24/11/2026) */
+@theme {
+  --color-ink: #0F0F12;
+  --color-paper: #F6F4EE;
+  --color-graphite: #26262D;
+  --color-line: #3A3A42;
+  --color-quiet: #A8A8B3;
+  --color-record: #FFD23F;
+  --color-comp: #FF4D3D;
+  --color-travel: #2457E6;
+  --color-habit: #21C16B;
+  --color-time: #FF8A1F;
+  --font-sans: "Archivo", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: var(--color-ink); color: var(--color-paper); font-family: var(--font-sans); }
+.hero { font-weight: 900; font-stretch: 125%; letter-spacing: -0.03em; line-height: 0.9; white-space: nowrap; }
